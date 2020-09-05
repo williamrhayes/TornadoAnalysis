@@ -49,3 +49,30 @@ figure, which shows the starting points of over 300 tornadoes
 that affected Arkansas.
 
 ---------------------------------------------------------------
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** 
+Step 3: Using the Maps to Show Tornado Paths
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** 
+
+The next step was plotting the ending points of the tornadoes!
+To do this, we used the "Liftoff" latitude and longitude provided
+in the data. Finally, a line was used to connect the tornadoes
+(with a Fujita score greater than 0) to see the path that the 
+tornadoes took.
+
+Interestingly, I noticed that these tornadoes almost always travel
+southwest to northeast. I wanted to see if this intuition was
+correct so I decided to check if the latitude and longitude of the
+ending point of the tornado was greater than the starting point.
+
+To my surprise, I found that 88.95% of this time, this was the case!
+This led me to believe that I was at the greatest risk of a tornado 
+that starts to the southwest of my home.
+
+A number of new figures are included in the "Figures" folder. Tornadoes
+start at the red triangles and end at the yellow triangles. The 
+thickness of the line connecting the triangle indicates the Fujita scale 
+of the tornado. 
+
+The next steps might be to change this line's thickness to scale with the
+true path of destruction of the tornado, fixing the legend to be more readable,
+and to include a scale for reference on the map.
